@@ -31,6 +31,16 @@
           font-size: 3.5rem;
         }
       }
+      @media (max-width: 768px) {
+        .ntfimage{
+          width: 90%;
+          min-width: 100px;
+        }
+        #imgid{
+          flex-direction: column; 
+          align-items: center;
+        }
+      }
     </style>
 
     
@@ -58,7 +68,7 @@
     </nav>
   </div>
 
-  <div class="jumbotron p-4 p-md-5 text-dark rounded bg-light" style="display: flex;">
+  <div class="jumbotron p-4 p-md-5 text-dark rounded bg-light" style="display: flex;" id="imgid">
     <div class="col-md-6 px-0">
         <h1 class="display-4 font-italic">Enjoy<br>the Sea of Content<br>on Netflix</h1>
         <p class="lead my-3">Netflix offers a wide variety of ad-free movies, series, documentaries, and exclusive content.</p>
@@ -66,7 +76,7 @@
     </div>
     <div style="width: 50%; text-align: center; display: block; margin-left: auto; margin-right: auto; margin-top: auto; margin-bottom: auto;" >
         
-            <img src = "./image/netflix1.png" width="90%" height="auto">
+            <img src = "./image/netflix1.png" width="90%" height="auto" class="ntfimage">
        
     </div>
 </div>
